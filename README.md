@@ -1,4 +1,4 @@
-Installation
+Front end Installation
 ------------
 
     first you need to have yarn.
@@ -9,14 +9,16 @@ Installation
 
     #!/bin/bash
 
-    mkdir collector-front
-    cd collector-front
+    mkdir skalfa_test
+    cd skalfa_test
 
-    git clone git@gitlab.com:team-monitoring/collector-dashboard.git
+    git clone git@github.com:jrafgan/skalfa_test.git
 
-    cd collector-dashboard
-    yarn add
 
+    cd skalfa_test && cd skalfa_front_end
+    
+    yarn
+    
     yarn start
 
 
