@@ -20,8 +20,25 @@ Front end Installation
     yarn
     
     yarn start
+    
+Back end Installation
+------------
 
+    Open new CLI TAB then enter
+    
+    #!/bin/bash
 
+    cd ../ && cd skalfa_back_end
+    
+    yarn
+    
+    yarn dev
+    
+    Now you need type in browser 
+    
+    http://localhost:3000/
+    
+    and use app
 
 Т.З.
 
