@@ -28,7 +28,6 @@ class Register extends Component {
         } else {
             this.props.registerUser(this.state)
         }
-        console.log(this.state);
     };
 
     changeHandler = e => {

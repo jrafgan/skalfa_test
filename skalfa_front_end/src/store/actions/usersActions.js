@@ -39,14 +39,12 @@ export const logoutUser = () => {
 
 export const registerUser = userData => {
     return dispatch => {
-        console.log(userData);
         return axios.post('/users', userData).then(response => {
                 dispatch(registerUserSuccess(response.data.user));
                 dispatch(push('/users_list'));
             },
             error => {
                 if (error.response) {
-                    console.log(error.response.data);
                     dispatch(registerUserFailure(error.response.data));
                 } else {
                     dispatch(registerUserFailure({global: "No network connection "}))

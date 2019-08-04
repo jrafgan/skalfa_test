@@ -26,7 +26,7 @@ const SimpleSelect = props => {
     return (
 
         <FormControl className={classes.formControl}>
-            <InputLabel htmlFor="country-required">Country</InputLabel>
+            <InputLabel htmlFor="country-required">Country *</InputLabel>
             <Select
                 value={props.country}
                 onChange={props.changeHandler}
